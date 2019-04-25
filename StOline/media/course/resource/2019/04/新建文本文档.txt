@@ -1,0 +1,19 @@
+model: django中的循环引用：引用其他APP的MODEL
+user model.py → courses model.py
+常用方法：分层设计
+
+django app设计
+uesr model.py编写
+courses model.py编写
+organization models.py编写
+
+operation model.py编写 （最上一层结构）
+
+
+django外键的映射 多对1 1对多
+
+
+基于HTML的include机制
+django模板继承机制
+
+7.5  django分页库  ：pure pagination
